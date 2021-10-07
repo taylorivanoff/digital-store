@@ -1,0 +1,13 @@
+name: digital-store
+recipe: laravel
+config:
+  php: 7.4
+  webroot: public
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+proxy:
+  pma:
+    - pma.digital-store.lndo.site

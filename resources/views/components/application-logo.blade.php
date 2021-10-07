@@ -1,0 +1,1 @@
+<img src="/favicon.png" alt="Taylor Ivanoff" class="w-8">
